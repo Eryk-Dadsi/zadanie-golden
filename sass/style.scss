@@ -188,22 +188,14 @@ ul li {
  }
 
  /* Footer */
-
+footer {
+    padding: 40px 0;
+}
  footer span {
     font-family: $font-text;
     color: $color-text;
     font-size: 14px;
  }
-
- footer i { 
-    font-size: 20px;
-    background: $color-headFont;
-    height: 40px;
-    width: 40px;
-    color: $color-backgroundText; 
-    border-radius: 50%;
-    margin: 0 5px;
-}
 
 footer ul {
     display: flex;
@@ -211,5 +203,23 @@ footer ul {
 }
  
 footer a {
-    text-align: center;
+    font-size:20px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin:0 8px;
+    color: $color-backgroundText;
+    background-color: $color-headFont;
+}
+
+footer .row {
+    position: relative;
+}
+footer .social {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
 }
