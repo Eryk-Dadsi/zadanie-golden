@@ -10,6 +10,14 @@ $font-head: 'Montserrat', sans-serif;
 $font-text: 'PT Serif', serif;
 
 /* Global */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
 
 a {
     text-decoration: none;
@@ -30,9 +38,6 @@ ul li {
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.875;
-    text-align: center;
-    left: 602.404px;
-    top: 797.5px;
     z-index: 97;
   }
   
@@ -42,9 +47,74 @@ ul li {
     color: $color-text;
     font-style: italic;
     line-height: 1.2;
-    text-align: center;
-    left: 547.937px;
-    top: 865.946px;
     z-index: 96;
   }
+
+  section {
+      padding: 120px 0; 
+  }
+
+  /* Home-Section */
   
+  .home {
+    background-color: #222222;
+    max-height: 680px;
+  }
+
+  .home span {
+    font-size: 26px;
+    font-family: $font-logo;
+    color: $color-button;
+    line-height: 1.577;
+    text-align: left;
+    left: 235.937px;
+    top: 37.499px;
+    z-index: 119;   
+  }
+
+  .home h1 {
+        font-size: 75px;
+        font-family: $font-head;
+        color: $color-backgroundText;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        z-index: 107;  
+  }
+
+  .home h2 {
+    font-size: 40px;
+    font-family: $font-text;
+    color: $color-backgroundText;
+    font-style: italic;
+    line-height: 1.2;
+    z-index: 108;
+  }
+
+  .home .btn {
+    border-radius: 3px;
+    background-color: $color-button;
+    font-family: $font-head;
+    color: $color-backgroundText;
+    font-size: 18px;
+    width: 240px;
+    height: 65px;
+    z-index: 104;
+    padding: 26px 52px;
+  }
+
+  .splash {
+    
+  }
+
+  .home nav {
+      text-align: right;
+  }
+  
+  .home nav li {
+      font-family: $font-head;
+      font-size: 14px;
+      color: $color-backgroundText;
+      text-align: center;
+      margin-left: 35px;
+  }
