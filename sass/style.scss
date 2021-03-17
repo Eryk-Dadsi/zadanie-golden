@@ -59,7 +59,12 @@ ul li {
   /* Home-Section */
   
   .home {
-    background-color: #222222;
+    background-color: transparent;
+    height: 100vh;
+    position: relative;
+    background-image: url(https://i.postimg.cc/FHBHFsbt/Background-Image.png);
+    background-position: center center;
+    background-size: cover; 
     max-height: 680px;
   }
 
