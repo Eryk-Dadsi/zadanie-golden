@@ -66,6 +66,7 @@ ul li {
     background-position: center center;
     background-size: cover; 
     max-height: 680px;
+    
   }
 
   .home span {
@@ -119,6 +120,17 @@ ul li {
       margin-left: 35px;
   }
 
+  .splash {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .home .row {
+      padding-top: 50px;
+  }
  /* Section-services */
  
  .services h5 {
