@@ -223,3 +223,26 @@ footer .social {
     right: 50%;
     transform: translateX(50%);
 }
+
+/* Media */
+
+@media (max-width: 992px) {
+  
+    .home nav li a {
+        padding: 0 5px 0 5px;
+    }
+
+    .home nav {
+        text-align: center;
+    }
+
+    .home h1 {
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+
+    .home h2 {
+        font-size: 30px;
+    }
+
+}
