@@ -39,6 +39,7 @@ ul li {
     text-transform: uppercase;
     line-height: 1.875;
     z-index: 97;
+    margin: 0;
   }
   
   .section-subtitle {
@@ -48,6 +49,7 @@ ul li {
     font-style: italic;
     line-height: 1.2;
     z-index: 96;
+    margin: 0 0 80px 0;
   }
 
   section {
@@ -97,16 +99,9 @@ ul li {
     font-family: $font-head;
     color: $color-backgroundText;
     font-size: 18px;
-    width: 240px;
-    height: 65px;
     z-index: 104;
     padding: 26px 52px;
   }
-
-  .splash {
-    
-  }
-
   .home nav {
       text-align: right;
   }
@@ -118,3 +113,29 @@ ul li {
       text-align: center;
       margin-left: 35px;
   }
+
+ /* Section-services */
+ 
+ .services h5 {
+    font-family: $font-head;
+    color: $color-headFont;
+    font-size: 18px;
+ }
+
+ .services p {
+    font-family: $font-text;
+    color: $color-text;
+    font-size: 14px;
+ }
+
+ .services i {
+    font-size: 35px;
+    background: inherit;
+    width: 72px;
+    height: 72px;
+    line-height: 60px;
+    color: $color-button;
+    border: 3px solid $color-button;
+    border-radius: 50%;
+ }
+ 
