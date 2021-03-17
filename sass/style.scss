@@ -25,7 +25,7 @@ ul li {
 
 .section-title {
     font-size: 40px;
-    font-family: "Montserrat";
+    font-family: $font-head;
     color: $color-headFont;
     font-weight: bold;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ ul li {
   
   .section-subtitle {
     font-size: 16px;
-    font-family: "DroidSerif";
+    font-family: $font-text;
     color: $color-text;
     font-style: italic;
     line-height: 1.2;
